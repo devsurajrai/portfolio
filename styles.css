@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root{
+    --primary-color:#E11D48;
+    --emerald-color:#059669;
+    --offwhite-color:#E5E7EB;
+    --THE-color:#0284C7;
+    --blue:#1E3A8A
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/**container**/
+.container{ 
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+    
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    }
+
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.navigation .link{
+    color: white
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**Header**/
+
+
+
+
+.hero{
+    padding: 3rem;
+    text-align: center;
+}
+
+.hero .hero-image{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--emerald-color)
+}
+
+.hero .header-heading-color{
+    color: var(--primary-color)
+}
+
+.hero .header-THE{
+    color: var(--THE-color)
+}
+
+.offwhite{
+    background-color:var(--offwhite-color);
+}
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.section p{
+    font-size: 1.2rem;
+}
+
+
+.section{
+    padding: 2rem;
+    margin-bottom: .5rem;
+    /* border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem; */
+    border-radius: 1.5rem;
+    
+}
+
+.bottom-left-top-right-radius{
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer .link{
+    color: white
+}
+
+.footer ul{
+    padding-inline-start:0px;
+}
+
+.footer .footer-link-size{
+    font-size: 1.2rem;
+}
+
+.container .blog-heading{
+    color: var(--blue);
+    margin-bottom: 0rem;
+}
+
+.container .blog-link{
+    background-color:var(--blue)
+}
+
+.image-blog{
+    width: 500px;
+}
+
+
+

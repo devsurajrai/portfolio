@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git | Github</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <div style="padding-top: 10rem;" class="container container-center">
+        <h2 class="blog-heading">Using Git & Github</h2>
+        <small style="font-weight: bold;"> Febuary 9, 2021</small>
+    </div>
+
+
+    <header class="hero">
+        <img class="hero-image" src="/images/Git.png" alt="">
+    </header>
+
+    <!-- <section class="section"> -->
+    <div class="container container-center">
+        <h2> Difference between Git & Github</h2>
+        <p style="font-size: medium;">
+            <strong>Git </strong>in a nutshell is a tool to keep track of the changes made in a particular project. It
+            provides the facility for a number of people to work on the same project simultaneously. This makes it
+            really very easy for people to work together. There are few commands which makes it very easy for the user
+            to keep their work updated. <br><br>
+
+            <strong>Github </strong> on the other hand is a service provider which is used to store our repositories. It
+            also provides a user interface for creating repositories. Recently, Git has also released a desktop app for
+            easily managing the project state. <br><br>
+
+            <em> We will be seeing some of the most common processes used by anyone who uses Git and Github. <br><br>
+                <b>I will be using CLI (Comand Line Interface), these processes are much easier with the help of Github
+                    desktop version.</b>
+            </em>
+        </p>
+
+    </div>
+
+    <div class="container container-center">
+        <h2> Creting a repositories(repo)</h2>
+        <p>We can imagine a <b>repository</b> as a folder which contains important git files for tracking changes.</p>
+            chnages made in the project will be in the Git track record.</p>
+
+        <ol>
+            <li>
+                <p>Create a folder and name it whatever you want your repo to be called.</p>
+            </li>
+            <li>
+                <p>Open the folder and in that folder open the terminal.</p>
+            </li>
+            <li>
+                <p>Type command <em><strong>"git init"</strong></em>.</p>
+            </li>
+
+            <li>
+                <p>Use command <em><strong>"git status"</strong></em> to check repos's status.</p>
+            </li>
+
+            <h3>Look at the images for the reference.</h3>
+
+
+            <img class="image-blog" src="/images/Git & Github/git-init.png" alt=""><br><br>
+
+            <img class="image-blog" src="/images/Git & Github/git_status.png" alt="">
+
+    </div>
+
+    <div class="container container-center">
+        <h2> Staging the changes and making commit</h2>
+        <p><b>Staging</b> is the intermidiate step of commiting the changes made in the project. <br>
+            <br><b>Commiting</b> means allowing git to keep the track of the changes made. After commiting all the
+            chnages made in the project will be in the Git track record.</p>
+
+        <ol>
+            <li>
+                <p>For staging selective files use command<b><em>"git add filename"</b></em> and for staging all the
+                    file in the repo use <em><b>git add.</b></em></p>
+            </li>
+
+            <li>
+                <p>Use command <em><strong>'git commit -m "Commit Message"'</strong></em>.</p>
+            </li>
+
+            <h3>Look at the images for the reference.</h3>
+
+            <img class="image-blog" src="/images/Git & Github/git-add-commit.png" alt=""><br><br>
+
+    </div>
+
+    <div class="container container-center">
+        <h2>Checking previous commits</h2>
+
+        <ol>
+            <li>
+                <p>To see the previous commits made use command<b><em>"git log"</b></em>.</p>
+            </li>
+
+            <li>
+                <p>Each commit have different codes called <b>SHA</b> which differentiate them.</p>
+            </li>
+
+            <h3>Look at the images for the reference.</h3>
+
+            <img class="image-blog" src="/images/Git & Github/commit-track.png" alt=""><br><br>
+
+            </ol>
+
+    </div>
+
+    <div class="container container-center">
+        <h2>Creating & Switching between branches</h2>
+        <p>A Branch is a different line where people can work without effecting the main/master branch. By Default we are on main/master branch. When we are sure about the changes made in different branch other than main branch we can merge them with the main branch and those changes would reflect in the main branch. </p>
+        <ol>
+            <li>
+                <p>To create a new branch use command<b><em>'git branch "branch name"'</b></em>.</p>
+            </li>
+
+            <li>
+                <p>To switch to the created branch use comand <b>'git checkout "branch name'</b>.</p>
+            </li>
+
+            <li><p>To check the existing branches use command <b>"git branch"</b></p>,active branch would be marked with a star.</li>
+
+            <h3>Look at the images for the reference.</h3>
+
+            <img class="image-blog" src="/images/Git & Github/git-branch-create.png" alt=""><br><br>
+
+            <img class="image-blog" src="/images/Git & Github/branches.png" alt=""><br><br>
+
+            </ol>
+
+    </div>
+
+    <div class="container container-center">
+        <h2>Pushing the changes on Github</h2>
+        <p>Pushing means making th repository changes available online. Everytime we push the repository on github gets updated with latest changes made in the project.</p>
+        <ol>
+            <li>
+                <p>To create a new branch use command<b><em>'git branch "branch name"'</b></em>.</p>
+            </li>
+
+            <li>
+                <p>To switch to the created branch use comand <b>'git checkout "branch name'</b>.</p>
+            </li>
+
+            <li><p>To check the existing branches use command <b>"git branch"</b></p>,active branch would be marked with a star.</li>
+
+            <h3>Look at the images for the reference.</h3>
+
+            <img class="image-blog" src="/images/Git & Github/git-branch-create.png" alt=""><br><br>
+
+            <img class="image-blog" src="/images/Git & Github/branches.png" alt=""><br><br>
+
+            </ol>
+
+    </div>
+
+
+</body>
+
+</html>
