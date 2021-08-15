@@ -24,6 +24,7 @@ hr{
 .container{ 
     padding-left: 1rem;
     padding-right: 1rem;
+    line-height: 40px;
 
 }
 
@@ -36,6 +37,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-left: 35px;
 }
 
 .link-primary{
@@ -130,10 +132,7 @@ hr{
 .section{
     padding: 2rem;
     margin-bottom: .5rem;
-    /* border-top-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem; */
     border-radius: 1.5rem;
-    
 }
 
 .bottom-left-top-right-radius{
