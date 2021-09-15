@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root{
     --primary-color:#E11D48;
-    --emerald-color:#059669;
+
     --offwhite-color:#E5E7EB;
-    --THE-color:#0284C7;
+
     --blue:#1E3A8A
 }
 
@@ -34,8 +34,9 @@ hr{
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin-left: 35px;
+    padding: 0.5rem 0.5rem;
+    margin-left: 10px;
+    
 }
 
 .link-primary{
@@ -142,7 +143,7 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1.5rem;
@@ -165,6 +166,10 @@ hr{
     font-size: 1.2rem;
 }
 
+.social-icons{
+    height:30px;
+    width:30px
+}
 .container .blog-heading{
     color: var(--blue);
     margin-bottom: 0rem;
@@ -178,5 +183,14 @@ hr{
     width: 500px;
 }
 
+.mark-number{
+    display:inline-block;
+   color: white;
+   height:20px;
+    background-color: var(--blue);
+    border:none;
+    border-radius: 5px;
+    cursor:text;
+}
 
 
